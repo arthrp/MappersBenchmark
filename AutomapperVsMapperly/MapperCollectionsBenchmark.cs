@@ -4,6 +4,7 @@ using BenchmarkDotNet.Attributes;
 
 namespace AutomapperVsMapperly;
 
+[RPlotExporter]
 [MemoryDiagnoser]
 public class MapperCollectionsBenchmark
 {
